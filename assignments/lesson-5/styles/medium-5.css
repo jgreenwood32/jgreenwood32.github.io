@@ -6,4 +6,32 @@
     
     section.forecast { ______ }  /* show the 10-day forecast with the medium view and up */
 
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:
+}
+
+nav ul li.active a {
+    background-color: cadetblue
+}
+
+nav ul li a:hover {
+    background-color: lightskyblue 
+    
   }
