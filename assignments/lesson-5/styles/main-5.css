@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Times New Roman", Times, serif;  /* Declare the base font-family */
+  font-family: "Helvetica", Arial, sans-serif;  /* Declare the base font-family */
 }
 
 header, nav, main, footer { 
@@ -17,19 +17,28 @@ header {
 }
 
 header h1 {
-    
+    position: absolute;
+    top: 0px;
+    left: 200px
 }
 
 header img {
-    
+    position: absolute;
+    top:0px
 }
 
 header .subheading {
-    
+    position: absolute;
+    top:55px;
+    left: 250px;
 }
 
 nav {
-    
+   position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 300px;
+       
 }
 
 nav button {
@@ -40,7 +49,7 @@ nav ul {
    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: #f1f1f1;
     border: 1px solid #555;
 }
@@ -70,17 +79,24 @@ nav ul li a:hover {
 }
 
 main {
-    
+  position: absolute;
+    top: 500px
 }
 
 main h2 {
-    
+    text-align: center;
 }
-
+main .weather-summary{
+    position: relative;
+    text-align: center;
+}
 main figure { margin: 0 0 .2rem 2%; width:96%; 
 
 }
 
+main .current img {
+    width: 50px
+}
 main figure img { 
 
 }
@@ -88,5 +104,8 @@ main .forecast{
     display: none
 }
 footer {
-    
+    position: absolute;
+    top: 1325px;
+    text-align: center;
+    background-color:#f1f1f1;
 }
