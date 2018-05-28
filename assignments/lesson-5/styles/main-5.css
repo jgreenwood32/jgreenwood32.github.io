@@ -29,7 +29,7 @@ header img {
 
 header .subheading {
     position: absolute;
-    top:90px;
+    top:55px;
     left: 250px;
 }
 
@@ -52,6 +52,7 @@ nav ul {
     width: 150px;
     background-color: #f1f1f1;
     border: 1px solid #555;
+    
 }
 
 nav ul li {
@@ -101,7 +102,8 @@ main figure img {
 
 }
 main .forecast{
-    display: none
+    display: none;
+    text-align: center
 }
 footer {
     position: absolute;

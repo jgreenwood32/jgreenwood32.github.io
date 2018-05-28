@@ -4,34 +4,46 @@
     
     nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
     
-    section.forecast { display:  }  /* show the 10-day forecast with the medium view and up */
+    section.forecast { display:block}  /* show the 10-day forecast with the medium view and up */
 
-   nav ul {
-    list-style-type: none;
+    header, nav, main, footer { 
+    /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    
+  max-width: 800px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+  nav ul {
+      display: block;
+   list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: lightgrey
+    width: 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    
 }
 
 nav ul li {
-    float: left;
+    
+    border-bottom: 1px solid #555;
 }
 
 nav ul li a {
     display: block;
     color: black;
-    text-align: center;
+    padding: 8px 16px;
     padding: 14px 16px;
     text-decoration: none;
-    background-color:
+    text-align: center;
+    
 }
 
 nav ul li.active a {
-    background-color: cadetblue
+  background-color: #4caf50;
+    color: white;
 }
 
 nav ul li a:hover {
-    background-color: lightskyblue 
-    
+    background-color: #555;
+    color: white;
+}
   }
